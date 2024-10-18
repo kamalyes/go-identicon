@@ -1,0 +1,154 @@
+# Git Project Directory Structure
+
+- **cmd**
+    - main.go
+- combined_output.svg
+- **constants**
+    - color.go
+- DIRECTORY_STRUCTURE.md
+- **enums**
+    - action_type.go
+    - beard_shape.go
+    - clothes_shape.go
+    - ear_shape.go
+    - earrings_shape.go
+    - eyebrows_shape.go
+    - eyes_shape.go
+    - face_shape.go
+    - gender.go
+    - glasses_shape.go
+    - mouth_shape.go
+    - nose_shape.go
+    - tops_shape.go
+    - widget_shape.go
+    - widget_type.go
+    - wrapper_shape.go
+- **external**
+    - common.go
+- generate_directory_structure.sh
+- go.mod
+- go.sum
+- **internal**
+- LICENSE
+- **models**
+    - avatar.go
+    - dynamic.go
+    - shape_styles.go
+    - special_avatars.go
+- **pkg**
+- README.md
+- **resources**
+    - logo.svg
+    - **preview**
+        - **beard**
+            - scruff.svg
+        - **clothes**
+            - collared.svg
+            - crew.svg
+            - open.svg
+        - **ear**
+            - attached.svg
+            - detached.svg
+        - **earrings**
+            - hoop.svg
+            - stud.svg
+        - **eyebrows**
+            - down.svg
+            - eyelashesdown.svg
+            - eyelashesup.svg
+            - up.svg
+        - **eyes**
+            - ellipse.svg
+            - eyeshadow.svg
+            - round.svg
+            - smiling.svg
+        - **face**
+            - base.svg
+        - **glasses**
+            - round.svg
+            - square.svg
+        - **mouth**
+            - frown.svg
+            - laughing.svg
+            - nervous.svg
+            - pucker.svg
+            - sad.svg
+            - smile.svg
+            - smirk.svg
+            - surprised.svg
+        - **nose**
+            - curve.svg
+            - pointed.svg
+            - round.svg
+        - **tops**
+            - beanie.svg
+            - clean.svg
+            - danny.svg
+            - fonze.svg
+            - funny.svg
+            - pixie.svg
+            - punk.svg
+            - turban.svg
+            - wave.svg
+    - **widgets**
+        - **beard**
+            - scruff.svg
+        - **clothes**
+            - collared.svg
+            - crew.svg
+            - open.svg
+        - **ear**
+            - attached.svg
+            - detached.svg
+        - **earrings**
+            - hoop.svg
+            - stud.svg
+        - **eyebrows**
+            - down.svg
+            - eyelashesdown.svg
+            - eyelashesup.svg
+            - up.svg
+        - **eyes**
+            - ellipse.svg
+            - eyeshadow.svg
+            - round.svg
+            - smiling.svg
+        - **face**
+            - base.svg
+        - **glasses**
+            - round.svg
+            - square.svg
+        - **mouth**
+            - frown.svg
+            - laughing.svg
+            - nervous.svg
+            - pucker.svg
+            - sad.svg
+            - smile.svg
+            - smirk.svg
+            - surprised.svg
+        - **nose**
+            - curve.svg
+            - pointed.svg
+            - round.svg
+        - **tops**
+            - beanie.svg
+            - clean.svg
+            - danny.svg
+            - fonze.svg
+            - funny.svg
+            - pixie.svg
+            - punk.svg
+            - turban.svg
+            - wave.svg
+- **types**
+    - avatar.go
+    - color.go
+    - common.go
+    - dynamic.go
+    - other.go
+    - shape.go
+    - special_avatars.go
+
+---
+Generated on 2024年10月18日 17:58:55
