@@ -10,14 +10,6 @@
  */
 package types
 
-// Widget 结构体表示一个小部件
-type Widget struct {
-	Shape       interface{} // 小部件的形状，可以是任意类型或 None
-	ZIndex      int         // Z轴索引，使用指针以支持可选字段
-	FillColor   SkinColors  // 填充颜色，使用指针以支持可选字段
-	StrokeColor string      // 描边颜色，使用指针以支持可选字段
-}
-
 // AvatarWidgets 结构体包含多个小部件，用于构建头像
 type AvatarWidgets struct {
 	Face     Widget // 脸部小部件

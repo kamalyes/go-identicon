@@ -2,7 +2,7 @@
  * @Author: kamalyes 501893067@qq.com
  * @Date: 2024-10-18 11:55:06
  * @LastEditors: kamalyes 501893067@qq.com
- * @LastEditTime: 2024-10-18 17:18:13
+ * @LastEditTime: 2024-10-18 19:10:08
  * @FilePath: \go-identicon\models\avatar.go
  * @Description: 定义与小部件和头像相关的结构体
  *
@@ -60,10 +60,10 @@ var defaultAvatarColors = types.AvatarSettings{
 		constants.ColorSkinDark,
 	},
 	BackgroundColors: []types.BackgroundColor{
-		constants.ColorLightBlue,
-		constants.ColorPink,
-		constants.ColorYellow,
-		constants.ColorLightPurple,
+		types.BackgroundColor(constants.ColorLightBlue),
+		types.BackgroundColor(constants.ColorPink),
+		types.BackgroundColor(constants.ColorYellow),
+		types.BackgroundColor(constants.ColorLightPurple),
 		constants.ColorGradient1,
 		constants.ColorGradient2,
 		constants.ColorGradient3,

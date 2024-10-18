@@ -143,5 +143,6 @@
       "postgre",
       "Squircle",
       "Wechat"
-    ]
+    ],
+    "gitConfigUser.selectedProfile": "go-identicon"
 }

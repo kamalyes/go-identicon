@@ -2,7 +2,7 @@
  * @Author: kamalyes 501893067@qq.com
  * @Date: 2024-10-18 11:11:19
  * @LastEditors: kamalyes 501893067@qq.com
- * @LastEditTime: 2024-10-18 13:05:03
+ * @LastEditTime: 2024-10-18 19:26:24
  * @FilePath: \go-identicon\types\shape.go
  * @Description: 定义形状类型
  *

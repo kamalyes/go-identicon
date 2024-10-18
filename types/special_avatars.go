@@ -12,22 +12,8 @@ package types
 
 // SpecialAvatar 定义特殊头像的结构
 type SpecialAvatar struct {
-	WrapperShape string
+	Gender       Gender
+	WrapperShape WrapperShape
 	Background   Background
 	Widgets      Widgets
-}
-
-// Widgets 定义组件结构
-type Widgets struct {
-	Face     Widget
-	Tops     Widget
-	Ear      Widget
-	Earrings Widget
-	Eyebrows Widget
-	Eyes     Widget
-	Nose     Widget
-	Glasses  Widget
-	Mouth    Widget
-	Beard    Widget
-	Clothes  Widget
 }

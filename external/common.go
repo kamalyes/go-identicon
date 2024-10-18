@@ -65,7 +65,7 @@ func GetRandomAvatarOption(useOption types.AvatarOption) types.AvatarOption {
 				[]types.BackgroundColor{useOption.Background.BackgroundColor}, nil),
 			BorderColor: getRandomValue(models.AvatarSettings.BorderColors,
 				[]types.BorderColor{useOption.Background.BorderColor},
-				[]types.BorderColor{constants.ColorTransparent}),
+				[]types.BorderColor{types.BorderColor(constants.ColorTransparent)}),
 		},
 	}
 
@@ -81,15 +81,16 @@ func GetRandomAvatarOption(useOption types.AvatarOption) types.AvatarOption {
 	avatarOption.Widgets.Tops.FillColor = getRandomFillColor(models.AvatarSettings.CommonColors)
 
 	// 主要挂件
-	avatarOption.Widgets.Ear.Shape = getRandomValue(models.AvatarSettings.EarShapes, []types.EarShape{useOption.Widgets.Ear.Shape}, nil)
 	avatarOption.Widgets.Earrings.Shape = getRandomValue(models.AvatarSettings.EarringsShapes, nil, []types.EarringsShape{enums.NoneEarrings})
+	avatarOption.Widgets.Glasses.Shape = getRandomValue(models.AvatarSettings.GlassesShapes, nil, []types.GlassesShape{enums.NoneGlasses})
+	avatarOption.Widgets.Clothes.FillColor = getRandomFillColor(models.AvatarSettings.CommonColors)
+
+	avatarOption.Widgets.Ear.Shape = getRandomValue(models.AvatarSettings.EarShapes, []types.EarShape{useOption.Widgets.Ear.Shape}, nil)
 	avatarOption.Widgets.Eyebrows.Shape = getRandomValue(models.AvatarSettings.EyebrowsShapes, []types.EyebrowsShape{useOption.Widgets.Eyebrows.Shape}, nil)
 	avatarOption.Widgets.Eyes.Shape = getRandomValue(models.AvatarSettings.EyesShapes, []types.EyesShape{useOption.Widgets.Eyes.Shape}, nil)
 	avatarOption.Widgets.Nose.Shape = getRandomValue(models.AvatarSettings.NoseShapes, []types.NoseShape{useOption.Widgets.Nose.Shape}, nil)
-	avatarOption.Widgets.Glasses.Shape = getRandomValue(models.AvatarSettings.GlassesShapes, nil, []types.GlassesShape{enums.NoneGlasses})
 	avatarOption.Widgets.Mouth.Shape = getRandomValue(models.AvatarSettings.MouthShapes, []types.MouthShape{useOption.Widgets.Mouth.Shape}, nil)
 	avatarOption.Widgets.Clothes.Shape = getRandomValue(models.AvatarSettings.ClothesShapes, []types.ClothesShape{useOption.Widgets.Clothes.Shape}, nil)
-	avatarOption.Widgets.Clothes.FillColor = getRandomFillColor(models.AvatarSettings.CommonColors)
 
 	return avatarOption
 }

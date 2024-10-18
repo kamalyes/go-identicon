@@ -11,7 +11,6 @@ import (
 )
 
 func main() {
-	// 示例设置
 	settings := types.AvatarOption{
 		Gender:       enums.MaleGender,
 		WrapperShape: enums.CircleWrapper,
